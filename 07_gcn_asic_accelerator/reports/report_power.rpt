@@ -1,0 +1,172 @@
+Load RC corner of view default_setup_view
+
+Begin Power Analysis
+
+    0.00V	    VSS
+    0.70V	    VDD
+Begin Processing Timing Library for Power Calculation
+
+Begin Processing Timing Library for Power Calculation
+
+
+
+Begin Processing Power Net/Grid for Power Calculation
+
+Ended Processing Power Net/Grid for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total)=3531.24MB/3531.24MB)
+
+Begin Processing Timing Window Data for Power Calculation
+
+Ended Processing Timing Window Data for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total)=3531.24MB/3531.24MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=3531.24MB/3531.24MB)
+
+Begin Processing Signal Activity
+
+
+Starting Activity Propagation
+2026-May-05 03:26:29 (2026-May-05 03:26:29 GMT)
+2026-May-05 03:26:29 (2026-May-05 03:26:29 GMT): 10%
+2026-May-05 03:26:29 (2026-May-05 03:26:29 GMT): 20%
+
+Finished Activity Propagation
+2026-May-05 03:26:29 (2026-May-05 03:26:29 GMT)
+Ended Processing Signal Activity: (cpu=0:00:00, real=0:00:00, mem(process/total)=3531.74MB/3531.74MB)
+
+Begin Power Computation
+
+      ----------------------------------------------------------
+      # of cell(s) missing both power/leakage table: 0
+      # of cell(s) missing power table: 1
+      # of cell(s) missing leakage table: 0
+      # of MSMV cell(s) missing power_level: 0
+      ----------------------------------------------------------
+CellName                                  Missing Table(s)
+TIELOx1_ASAP7_75t_R                       internal power, 
+
+
+
+Starting Calculating power
+2026-May-05 03:26:29 (2026-May-05 03:26:29 GMT)
+2026-May-05 03:26:30 (2026-May-05 03:26:30 GMT): 10%
+2026-May-05 03:26:30 (2026-May-05 03:26:30 GMT): 20%
+2026-May-05 03:26:30 (2026-May-05 03:26:30 GMT): 30%
+2026-May-05 03:26:30 (2026-May-05 03:26:30 GMT): 40%
+2026-May-05 03:26:30 (2026-May-05 03:26:30 GMT): 50%
+2026-May-05 03:26:30 (2026-May-05 03:26:30 GMT): 60%
+2026-May-05 03:26:30 (2026-May-05 03:26:30 GMT): 70%
+2026-May-05 03:26:30 (2026-May-05 03:26:30 GMT): 80%
+2026-May-05 03:26:30 (2026-May-05 03:26:30 GMT): 90%
+
+Finished Calculating power
+2026-May-05 03:26:30 (2026-May-05 03:26:30 GMT)
+Ended Power Computation: (cpu=0:00:03, real=0:00:00, mem(process/total)=3597.03MB/3597.03MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=3597.03MB/3597.03MB)
+
+Ended Power Analysis: (cpu=0:00:04, real=0:00:01, mem(process/total)=3597.03MB/3597.03MB)
+
+Begin Static Power Report Generation
+*----------------------------------------------------------------------------------------
+*	Innovus 17.12-s095_1 (64bit) 11/09/2017 12:10 (Linux 2.6.18-194.el5)
+*	
+*
+* 	Date & Time:	2026-May-05 03:26:30 (2026-May-05 03:26:30 GMT)
+*
+*----------------------------------------------------------------------------------------
+*
+*	Design: GCN
+*
+*	Liberty Libraries used:
+*	        default_setup_view: /usr/local2/ASAP7/afs/asu.edu/class/e/e/e/eee525b/asap7libs/asap7libs_24/lib/asap7sc7p5t_24_INVBUF_RVT_TT.lib
+*	        default_setup_view: /usr/local2/ASAP7/afs/asu.edu/class/e/e/e/eee525b/asap7libs/asap7libs_24/lib/asap7sc7p5t_24_AO_RVT_TT.lib
+*	        default_setup_view: /usr/local2/ASAP7/afs/asu.edu/class/e/e/e/eee525b/asap7libs/asap7libs_24/lib/asap7sc7p5t_24_OA_RVT_TT.lib
+*	        default_setup_view: /usr/local2/ASAP7/afs/asu.edu/class/e/e/e/eee525b/asap7libs/asap7libs_24/lib/asap7sc7p5t_24_SEQ_RVT_TT.lib
+*	        default_setup_view: /usr/local2/ASAP7/afs/asu.edu/class/e/e/e/eee525b/asap7libs/asap7libs_24/lib/asap7sc7p5t_24_SIMPLE_RVT_TT.lib
+*
+*	Power Domain used:
+*		Rail:        VDD 	Voltage:        0.7
+*
+*       Power View : default_setup_view
+*
+*       User-Defined Activity : N.A.
+*
+*       Activity File: N.A.
+*
+*       Hierarchical Global Activity: N.A.
+*
+*       Global Activity: N.A.
+*
+*       Sequential Element Activity: 0.200000
+*
+*       Primary Input Activity: 0.200000
+*
+*       Default icg ratio: N.A.
+*
+*       Global Comb ClockGate Ratio: N.A.
+*
+*	Power Units = 1mW
+*
+*	Time Units = 1e-12 secs
+*
+*       report_power
+*
+-----------------------------------------------------------------------------------------
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        2.36988178 	   52.5082%
+Total Switching Power:       2.14110697 	   47.4394%
+Total Leakage Power:         0.00236752 	    0.0525%
+Total Power:                 4.51335629
+-----------------------------------------------------------------------------------------
+
+
+Group                           Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+Sequential                         1.831      0.1094   0.0009326       1.941          43
+Macro                                  0           0           0           0           0
+IO                                     0           0   1.656e-09   1.656e-09   3.668e-08
+Combinational                     0.4234        1.52    0.001399       1.944       43.08
+Clock (Combinational)              0.116      0.5121    3.56e-05      0.6281       13.92
+Clock (Sequential)                     0           0           0           0           0
+-----------------------------------------------------------------------------------------
+Total                               2.37       2.141    0.002368       4.513         100
+-----------------------------------------------------------------------------------------
+
+
+Rail                  Voltage   Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+VDD                       0.7       2.37       2.141    0.002368       4.513         100
+
+
+Clock                           Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+clk                                0.116      0.5121    3.56e-05      0.6281       13.92
+-----------------------------------------------------------------------------------------
+Total                              0.116      0.5121    3.56e-05      0.6281       13.92
+-----------------------------------------------------------------------------------------
+ 
+ 
+-----------------------------------------------------------------------------------------
+*	Power Distribution Summary: 
+* 		Highest Average Power: CTS_ccl_a_BUF_clk_G0_L2_1 (BUFx16f_ASAP7_75t_R): 	  0.007881
+* 		Highest Leakage Power: CTS_ccl_a_BUF_clk_G0_L3_5 (BUFx24_ASAP7_75t_R): 	 1.432e-06
+* 		Total Cap: 	4.37023e-11 F
+* 		Total instances in design: 25666
+* 		Total instances in design with no power:     0
+*                Total instances in design with no activty:     0
+
+* 		Total Fillers and Decap:     0
+-----------------------------------------------------------------------------------------
+ 
+Ended Static Power Report Generation: (cpu=0:00:00, real=0:00:00,
+mem(process/total)=3597.29MB/3597.29MB)
+
